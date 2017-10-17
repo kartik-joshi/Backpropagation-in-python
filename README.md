@@ -24,25 +24,28 @@ In this implementation, I have used Adapting the learning rate method.
 
 According to classes a sample Cost matrix is created as mentioned below:
 
-        Class 0  Class 1 Class 2 Class 3 Class 4 Class 5
+cls :  '0'    '1'      '2'       '3'    '4'       '5'
         
-Class 0    0       0        1       1     1       1.5
+'0' :   0   -   0    -   1   -    1  -    1   -   1.5
 
-Class 1    0       0        1       1     1       1.5
+'1' :   0   -   0    -   1   -    1  -    1   -   1.5
 
-Class 2    1       1        0       0     0        1
+'2' :   1   -   1    -   0   -    0  -    0   -    1
 
-Class 3    1       1        0       0     0        1
+'3' :   1   -   1    -   0   -    0  -    0   -    1
 
-Class 4    1       1        0       0     0        1
+'4' :   1   -   1    -   0   -    0  -    0   -    1
 
-Class 5   1.5     1.5       1       1     1        0
+'5' :  1.5  -   1.5  -   1   -    1  -    1   -    0
 
 Misclassification cost is applied in the form of learning rate increase (by constant value c).
 
 Ex:
+
 Expected class 1 predict 0, new learning rate will be l_rate + 0*C
+
 Expected class 1 predict 4, new learning rate will be l_rate + 1*Cs
+
 Expected class 1 predict 5, new learning rate will be l_rate + 1.5*C
 
 In execution l_rate is 0.5 and C is 0.2
