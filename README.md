@@ -16,8 +16,8 @@ Minimization of the misclassification costs: The misclassification costs can als
 
 In this implementation, I have used Adapting the learning rate method.
 According to classes a Symmetric and Asymmetric Cost matrix is created as mentioned below:
-![Symmetric Cost matrix](symmetric.jpg)
-![Asymmetric Cost matrix](asymmetric.jpg)
+![Symmetric Cost matrix](images%20/symmetric.jpg)
+![Asymmetric Cost matrix](images%20/asymmetric.jpg)
 
 Here in symmetric cost matrix cost for misclassification is reduces for the classes they are close to each other and cost increased for classes which has big difference. Asymmetric cost matrix has random cost assigned.
 Normal cost matrix has one cost for each pair of misclassification
@@ -43,11 +43,11 @@ Same rule applied for Asymmetric cost matrix
 ##Execution Report##
 
 One Run:
-![Run Screeshot](images/run.jpg)
+![Run Screeshot](images%20/run.jpg)
 
 
 Result:
-![Result Table](images/result.jpg)
+![Result Table](images%20/result.jpg)
 
 (Here in symmetric and asymmetric cost matrix some misclassification class pair has less value and some has more value. The class which are related (close class 0 -1) has less misclassification cost compare to value in Normal matrix. And further classes (big difference in attributes class 0 – 5) have higher misclassification cost)
 
@@ -60,5 +60,5 @@ This result will depend on problem dataset you are using and also how you initia
 
 #References#
 **[Research paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.8285&rep=rep1&type=pdf)
-**[]Machinelearningmastery](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
+**[Machinelearningmastery](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
 **[UCI_Dataset](https://archive.ics.uci.edu/ml/datasets/Dermatology)
