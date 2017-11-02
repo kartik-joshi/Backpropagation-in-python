@@ -18,7 +18,9 @@ Class 5: pityriasis rubra pilaris- a group of rare skin disorders that present w
 
 In this implementation, I have used Adapting the learning rate method.
 According to classes a Symmetric and Asymmetric Cost matrix is created as mentioned below:
+
 ![Symmetric Cost matrix](images%20/symmetric.jpg)
+
 ![Asymmetric Cost matrix](images%20/asymmetric.jpg)
 
 Here in symmetric cost matrix cost for misclassification is reduces for the classes they are close to each other and cost increased for classes which has big difference. Asymmetric cost matrix has random cost assigned.
